@@ -3,7 +3,7 @@ import {Component} from 'react'
 import './index.css'
 
 class LightDarkMode extends Component {
-  state: {status: true}
+  state = {status: true}
 
   onClickButton = () => {
     const {status} = this.state
