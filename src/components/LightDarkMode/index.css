@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.bg-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.blackCard {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.darkCardBton {
+  background-color: #ffffff;
+  border: 0px solid;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.lightCard {
+  border: 1px solid #000000;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightCardBton {
+  border: 1px solid #000000;
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 5px;
+}
